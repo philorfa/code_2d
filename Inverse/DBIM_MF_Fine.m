@@ -14,6 +14,12 @@ InP.model_phantom=input('Please choose the model nuber');%%%%for example 146
 %total_freqs{5} = [1.4]*1e9;
 
 %total_freqs{1} = [0.5 0.8]*1e9; %GHz mulitple frequency 0.5 and 0.8
+%%
+% 
+%   for x = 1:10
+%       disp(x)
+%   end
+% 
 total_freqs{1} = [1]*1e9;%%%can be mixed with frequency hopping
 
 maxIter=[20];%%number of iterations for each total_freqs index.
