@@ -7,7 +7,7 @@ load(['..\data\model' num2str(fw.model_phantom) '\all_material.mat'],'frequency'
 fw.freqs=frequency;
 switch fw.mode
     case 1 %%%%when FDTD data is used as measurement
-        fw.fctr=1.0e9; % 2.0 GHZ
+        fw.fctr=1.25e9; % 2.0 GHZ
         fw.mode='Forward_original';
         fw.material_flag=[0];
         disp(['The central frequency is ' num2str(fw.fctr/1e9) ' GHz']);

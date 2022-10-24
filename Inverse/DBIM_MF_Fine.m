@@ -14,9 +14,9 @@ total_freqs{4} = [1.3]*1e9;
 total_freqs{5} = [1.4]*1e9;
 
 %total_freqs{1} = [0.5 0.8]*1e9; %GHz mulitple frequency 0.5 and 0.8
-%total_freqs{2} = [1.0]*1e9;%%%can be mixed with frequency hopping
+%total_freqs{1} = [1]*1e9;%%%can be mixed with frequency hopping
 
-maxIter=[5 5 5 5 5];%%number of iterations for each total_freqs index.
+maxIter=[10 10 10 10 10];%%number of iterations for each total_freqs index.
 % check input, frequency, and path
 path = Check_Input(InP, total_freqs);
 
